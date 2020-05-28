@@ -1,0 +1,87 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"app-plus":{
+					"scrollIndicator":"none",
+					"titleNView":{
+						"buttons":[
+							{
+								"color":"#ff991f",
+								"colorPressed":"#BBBBBB",
+								"float":"left",
+								"fontSrc":"/static/font/icon.ttf",
+								"text":"\ue609"
+							},
+							{
+								"color":"#000000",
+								"colorPressed":"#BBBBBB",
+								"float":"right",
+								"fontSrc":"/static/font/icon.ttf",
+								"text":"\ue653"
+							}
+						],
+						"searchInput":{
+							"backgroundColor":"#f7f7f7",
+							"borderRadius":"4px",
+							"placeholder":"搜索糗事",
+							"placeholderColor":"#ccc",
+							"disabled":true
+						}
+					}
+				}
+			}
+		}
+	    ,{
+            "path" : "pages/news/news",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/paper/paper",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/home/home",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "仿糗事百科",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	},
+	// 底部导航栏
+	"tabBar":{
+		"color":"#b5b5b5",
+		"selectedColor":"#fee42d",
+		"backgroundColor":"#FFFFFF",
+		"list":[
+			{
+				"pagePath":"pages/index/index",
+				"text":"糗事",
+				"iconPath":"/static/tabbar/index.png",
+				"selectedIconPath":"/static/tabbar/indexed.png"
+			},
+			{
+				"pagePath":"pages/news/news",
+				"text":"动态",
+				"iconPath":"/static/tabbar/news.png",
+				"selectedIconPath":"/static/tabbar/newsed.png"
+			},
+			{
+				"pagePath":"pages/paper/paper",
+				"text":"小纸条",
+				"iconPath":"/static/tabbar/paper.png",
+				"selectedIconPath":"/static/tabbar/papered.png"
+			},
+			{
+				"pagePath":"pages/home/home",
+				"text":"我的",
+				"iconPath":"/static/tabbar/home.png",
+				"selectedIconPath":"/static/tabbar/homeed.png"
+			}
+		]
+	}
+}

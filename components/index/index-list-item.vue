@@ -1,0 +1,153 @@
+<template>
+	<view class="index-list-item">
+		<view class="user-info">
+			<view class="info">
+				<image :src="item.userPic" mode="widthFix" lazy-load></image>
+				{{item.userName}}
+			</view>
+			<view class="right-info">
+				<view class="attention" v-if="!item.isGuanzhu">
+					<view class="icon iconfont icon-zengjia"></view>关注
+				</view>
+				<view class="close-btn icon iconfont icon-guanbi"></view>
+			</view>
+		</view>
+		<view class="title">
+			{{item.title}}
+		</view>
+		<view class="photo">
+			<image :src="item.titlePic" mode="widthFix" lazy-load></image>
+			<template v-if="item.type=='video'">
+				<view class="playBtn icon iconfont icon-bofang"></view>
+				<view class="play-info">
+					<text>{{item.playNum}}</text> 次播放 <text>{{item.long}}</text>
+				</view>
+			</template>	
+		</view>
+		<view class="comment-toolbar">
+			<view class="left-tool">
+				<view :class="{'active':item.infoNum.index==1}"><view class="icon iconfont icon-icon_xiaolian-mian"></view>{{item.infoNum.dingNum}}</view>
+				<view :class="{'active':item.infoNum.index==2}"><view class="icon iconfont icon-kulian"></view>{{item.infoNum.caiNum}}</view>
+			</view>
+			<view class="right-tool">
+				<view><view class="icon iconfont icon-pinglun1"></view>{{item.commentNum}}</view>
+				<view><view class="icon iconfont icon-zhuanfa"></view>{{item.shareNum}}</view>
+			</view>
+		</view>
+	</view>
+</template>
+
+<script>
+	export default {
+		props:{
+			item:{
+				type:Object,
+				default(){
+					return null
+				}
+			}
+		},
+		data() {
+			return {
+				
+			}
+		},
+		methods: {
+			
+		}
+	}
+</script>
+
+<style lang="less" scoped>
+	.u-f{
+		display: flex;
+	}
+	.u-f-ac{
+		.u-f;
+		align-items: center;
+	}
+	.u-f-ajc{
+		.u-f-ac;
+		justify-content: center;
+	}
+	.u-f-jsb{
+		.u-f-ac;
+		justify-content: space-between;
+	}
+		.index-list-item{
+			border-bottom: 1px solid #efefef;
+			padding: 20rpx;
+			.user-info{
+				.u-f-jsb;
+				color: #999999;
+				.info{
+					.u-f-ac;	
+					image{
+						width: 100rpx;
+						height: 100rpx;
+						border-radius: 50%;
+						margin-right: 20rpx;
+					}
+				}
+				.right-info{
+					.u-f-ac;
+					.attention{
+						.u-f-ac;
+						background-color: #f4f4f4;
+						color: #333;
+						padding: 0 10rpx;
+						border-radius: 2rpx;
+						margin-right: 20rpx;
+					}
+				}
+			}
+			.title{
+				color:#333;
+				margin: 20rpx 0;
+				font-weight: bold;
+			}
+			.photo>image{
+				width: 100%;
+				border-radius: 20rpx;
+			}
+			.photo{
+				position: relative;
+				.u-f-ajc;
+				color: #FFFFFF;
+				.playBtn{
+					position: absolute;
+					font-size: 135rpx;
+					
+				}
+				.play-info{
+					position: absolute;
+					right: 10rpx;
+					bottom: 10rpx;
+					background-color: rgba(0,0,0,.6);
+					border-radius: 40rpx;
+					padding: 5rpx 10rpx;
+					line-height: 1.5;
+					text{
+						padding: 0 10rpx;
+					}
+				}
+			}
+			.comment-toolbar{
+				.u-f-jsb;
+				color: #999999;
+				.left-tool,.right-tool,.left-tool>view,.right-tool>view{
+					.u-f-ac;
+					.active{
+						color: #ff9619;
+					}
+				}
+				.left-tool>view,.right-tool>view:first-child{
+					margin-right: 20rpx;
+				}
+				.left-tool>view>view,.right-tool>view>view{
+					margin-right: 10rpx;
+				}
+			}
+		}
+		
+</style>
