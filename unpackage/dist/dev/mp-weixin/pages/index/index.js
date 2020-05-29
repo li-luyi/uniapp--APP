@@ -34,7 +34,7 @@ createPage(_index.default);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _index_vue_vue_type_template_id_676fa558___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.vue?vue&type=template&id=676fa558& */ 13);
+/* harmony import */ var _index_vue_vue_type_template_id_676fa558_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.vue?vue&type=template&id=676fa558&scoped=true& */ 13);
 /* harmony import */ var _index_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index.vue?vue&type=script&lang=js& */ 15);
 /* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _index_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _index_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));
 /* harmony import */ var _C_download_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/runtime/componentNormalizer.js */ 10);
@@ -48,14 +48,14 @@ var renderjs
 
 var component = Object(_C_download_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
   _index_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _index_vue_vue_type_template_id_676fa558___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _index_vue_vue_type_template_id_676fa558___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _index_vue_vue_type_template_id_676fa558_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _index_vue_vue_type_template_id_676fa558_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
-  null,
+  "676fa558",
   null,
   false,
-  _index_vue_vue_type_template_id_676fa558___WEBPACK_IMPORTED_MODULE_0__["components"],
+  _index_vue_vue_type_template_id_676fa558_scoped_true___WEBPACK_IMPORTED_MODULE_0__["components"],
   renderjs
 )
 
@@ -64,30 +64,30 @@ component.options.__file = "D:/exercise/uniapp/仿糗事百科APP/pages/index/in
 
 /***/ }),
 /* 13 */
-/*!****************************************************************************************!*\
-  !*** D:/exercise/uniapp/仿糗事百科APP/pages/index/index.vue?vue&type=template&id=676fa558& ***!
-  \****************************************************************************************/
+/*!****************************************************************************************************!*\
+  !*** D:/exercise/uniapp/仿糗事百科APP/pages/index/index.vue?vue&type=template&id=676fa558&scoped=true& ***!
+  \****************************************************************************************************/
 /*! exports provided: render, staticRenderFns, recyclableRender, components */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _C_download_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_C_download_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_16_0_C_download_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_C_download_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_uni_app_loader_page_meta_js_C_download_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_C_download_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_index_vue_vue_type_template_id_676fa558___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--16-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!./index.vue?vue&type=template&id=676fa558& */ 14);
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _C_download_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_C_download_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_16_0_C_download_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_C_download_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_uni_app_loader_page_meta_js_C_download_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_C_download_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_index_vue_vue_type_template_id_676fa558___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _C_download_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_C_download_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_16_0_C_download_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_C_download_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_uni_app_loader_page_meta_js_C_download_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_C_download_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_index_vue_vue_type_template_id_676fa558_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--16-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!./index.vue?vue&type=template&id=676fa558&scoped=true& */ 14);
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _C_download_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_C_download_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_16_0_C_download_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_C_download_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_uni_app_loader_page_meta_js_C_download_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_C_download_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_index_vue_vue_type_template_id_676fa558_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _C_download_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_C_download_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_16_0_C_download_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_C_download_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_uni_app_loader_page_meta_js_C_download_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_C_download_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_index_vue_vue_type_template_id_676fa558___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _C_download_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_C_download_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_16_0_C_download_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_C_download_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_uni_app_loader_page_meta_js_C_download_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_C_download_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_index_vue_vue_type_template_id_676fa558_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "recyclableRender", function() { return _C_download_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_C_download_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_16_0_C_download_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_C_download_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_uni_app_loader_page_meta_js_C_download_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_C_download_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_index_vue_vue_type_template_id_676fa558___WEBPACK_IMPORTED_MODULE_0__["recyclableRender"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "recyclableRender", function() { return _C_download_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_C_download_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_16_0_C_download_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_C_download_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_uni_app_loader_page_meta_js_C_download_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_C_download_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_index_vue_vue_type_template_id_676fa558_scoped_true___WEBPACK_IMPORTED_MODULE_0__["recyclableRender"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "components", function() { return _C_download_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_C_download_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_16_0_C_download_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_C_download_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_uni_app_loader_page_meta_js_C_download_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_C_download_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_index_vue_vue_type_template_id_676fa558___WEBPACK_IMPORTED_MODULE_0__["components"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "components", function() { return _C_download_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_C_download_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_16_0_C_download_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_C_download_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_uni_app_loader_page_meta_js_C_download_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_C_download_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_index_vue_vue_type_template_id_676fa558_scoped_true___WEBPACK_IMPORTED_MODULE_0__["components"]; });
 
 
 
 /***/ }),
 /* 14 */
-/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--16-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!D:/exercise/uniapp/仿糗事百科APP/pages/index/index.vue?vue&type=template&id=676fa558& ***!
-  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--16-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!D:/exercise/uniapp/仿糗事百科APP/pages/index/index.vue?vue&type=template&id=676fa558&scoped=true& ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns, recyclableRender, components */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -133,7 +133,18 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var indexListItem = function indexListItem() {__webpack_require__.e(/*! require.ensure | components/index/index-list-item */ "components/index/index-list-item").then((function () {return resolve(__webpack_require__(/*! ../../components/index/index-list-item.vue */ 37));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var swiperTabHead = function swiperTabHead() {__webpack_require__.e(/*! require.ensure | components/index/swiper-tab-head */ "components/index/swiper-tab-head").then((function () {return resolve(__webpack_require__(/*! ../../components/index/swiper-tab-head.vue */ 17));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default =
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var indexListItem = function indexListItem() {__webpack_require__.e(/*! require.ensure | components/index/index-list-item */ "components/index/index-list-item").then((function () {return resolve(__webpack_require__(/*! ../../components/index/index-list-item.vue */ 35));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var swiperTabHead = function swiperTabHead() {__webpack_require__.e(/*! require.ensure | components/index/swiper-tab-head */ "components/index/swiper-tab-head").then((function () {return resolve(__webpack_require__(/*! ../../components/index/swiper-tab-head.vue */ 42));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var loadMore = function loadMore() {__webpack_require__.e(/*! require.ensure | components/common/load-more */ "components/common/load-more").then((function () {return resolve(__webpack_require__(/*! ../../components/common/load-more.vue */ 49));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var noTing = function noTing() {__webpack_require__.e(/*! require.ensure | components/common/no-ting */ "components/common/no-ting").then((function () {return resolve(__webpack_require__(/*! ../../components/common/no-ting.vue */ 60));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default =
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -186,7 +197,9 @@ __webpack_require__.r(__webpack_exports__);
         name: '本地',
         id: 'bendi' }],
 
-      newsList: [{
+      newsList: [
+      {
+        loadText: "上拉加载更多",
         list: [{
           userPic: "../../static/image/userpic/10.jpg",
           userName: "李小仙",
@@ -197,7 +210,7 @@ __webpack_require__.r(__webpack_exports__);
           playNum: "20w",
           long: "2:37",
           infoNum: {
-            index: 1, //0:没有进行顶踩操作，1：反之
+            index: 0, //0:没有进行顶踩操作，1：反之
             dingNum: 22,
             caiNum: 381 },
 
@@ -214,12 +227,85 @@ __webpack_require__.r(__webpack_exports__);
           playNum: "21w",
           long: "2:37",
           infoNum: {
-            index: 2, //0:没有进行顶踩操作，1：反之
+            index: 0, //0:没有进行顶踩操作，1：顶操作；2：踩操作
             dingNum: 233,
             caiNum: 38 },
 
           commentNum: 100,
           shareNum: 10 }] },
+
+
+      {
+        loadText: "上拉加载更多",
+        list: [
+        {
+          userPic: "../../static/image/userpic/10.jpg",
+          userName: "李小仙",
+          isGuanzhu: false,
+          title: "如何用手账改变你的一生？",
+          type: "img", //img:图片，video：视频
+          titlePic: "../../static/image/datapic/11.jpg",
+          playNum: "20w",
+          long: "2:37",
+          infoNum: {
+            index: 0, //0:没有进行顶踩操作，1：反之
+            dingNum: 22,
+            caiNum: 381 },
+
+          commentNum: 1340,
+          shareNum: 10 },
+
+        {
+          userPic: "../../static/image/userpic/10.jpg",
+          userName: "李da仙",
+          isGuanzhu: true,
+          title: "如何用手账改变你的一生？",
+          type: "video",
+          titlePic: "../../static/image/datapic/11.jpg",
+          playNum: "21w",
+          long: "2:37",
+          infoNum: {
+            index: 0, //0:没有进行顶踩操作，1：反之
+            dingNum: 233,
+            caiNum: 38 },
+
+          commentNum: 100,
+          shareNum: 10 },
+
+        {
+          userPic: "../../static/image/userpic/10.jpg",
+          userName: "李小仙",
+          isGuanzhu: false,
+          title: "如何用手账改变你的一生？",
+          type: "img", //img:图片，video：视频
+          titlePic: "../../static/image/datapic/11.jpg",
+          playNum: "20w",
+          long: "2:37",
+          infoNum: {
+            index: 0, //0:没有进行顶踩操作，1：反之
+            dingNum: 22,
+            caiNum: 381 },
+
+          commentNum: 1340,
+          shareNum: 10 },
+
+        {
+          userPic: "../../static/image/userpic/10.jpg",
+          userName: "李da仙",
+          isGuanzhu: true,
+          title: "如何用手账改变你的一生？",
+          type: "video",
+          titlePic: "../../static/image/datapic/11.jpg",
+          playNum: "21w",
+          long: "2:37",
+          infoNum: {
+            index: 0, //0:没有进行顶踩操作，1：反之
+            dingNum: 233,
+            caiNum: 38 },
+
+          commentNum: 100,
+          shareNum: 10 }] },
+
 
 
       {
@@ -234,7 +320,7 @@ __webpack_require__.r(__webpack_exports__);
           playNum: "20w",
           long: "2:37",
           infoNum: {
-            index: 1, //0:没有进行顶踩操作，1：反之
+            index: 0, //0:没有进行顶踩操作，1：反之
             dingNum: 22,
             caiNum: 381 },
 
@@ -268,7 +354,7 @@ __webpack_require__.r(__webpack_exports__);
           playNum: "20w",
           long: "2:37",
           infoNum: {
-            index: 1, //0:没有进行顶踩操作，1：反之
+            index: 0, //0:没有进行顶踩操作，1：反之
             dingNum: 22,
             caiNum: 381 },
 
@@ -285,7 +371,41 @@ __webpack_require__.r(__webpack_exports__);
           playNum: "21w",
           long: "2:37",
           infoNum: {
-            index: 2, //0:没有进行顶踩操作，1：反之
+            index: 0, //0:没有进行顶踩操作，1：反之
+            dingNum: 233,
+            caiNum: 38 },
+
+          commentNum: 100,
+          shareNum: 10 },
+
+        {
+          userPic: "../../static/image/userpic/10.jpg",
+          userName: "李小仙",
+          isGuanzhu: false,
+          title: "如何用手账改变你的一生？",
+          type: "img", //img:图片，video：视频
+          titlePic: "../../static/image/datapic/11.jpg",
+          playNum: "20w",
+          long: "2:37",
+          infoNum: {
+            index: 0, //0:没有进行顶踩操作，1：反之
+            dingNum: 22,
+            caiNum: 381 },
+
+          commentNum: 1340,
+          shareNum: 10 },
+
+        {
+          userPic: "../../static/image/userpic/10.jpg",
+          userName: "李da仙",
+          isGuanzhu: true,
+          title: "如何用手账改变你的一生？",
+          type: "video",
+          titlePic: "../../static/image/datapic/11.jpg",
+          playNum: "21w",
+          long: "2:37",
+          infoNum: {
+            index: 0, //0:没有进行顶踩操作，1：反之
             dingNum: 233,
             caiNum: 38 },
 
@@ -295,115 +415,11 @@ __webpack_require__.r(__webpack_exports__);
 
 
       {
-        list: [
-        {
-          userPic: "../../static/image/userpic/10.jpg",
-          userName: "李小仙",
-          isGuanzhu: false,
-          title: "如何用手账改变你的一生？",
-          type: "img", //img:图片，video：视频
-          titlePic: "../../static/image/datapic/11.jpg",
-          playNum: "20w",
-          long: "2:37",
-          infoNum: {
-            index: 1, //0:没有进行顶踩操作，1：反之
-            dingNum: 22,
-            caiNum: 381 },
-
-          commentNum: 1340,
-          shareNum: 10 },
-
-        {
-          userPic: "../../static/image/userpic/10.jpg",
-          userName: "李da仙",
-          isGuanzhu: true,
-          title: "如何用手账改变你的一生？",
-          type: "video",
-          titlePic: "../../static/image/datapic/11.jpg",
-          playNum: "21w",
-          long: "2:37",
-          infoNum: {
-            index: 2, //0:没有进行顶踩操作，1：反之
-            dingNum: 233,
-            caiNum: 38 },
-
-          commentNum: 100,
-          shareNum: 10 },
-
-        {
-          userPic: "../../static/image/userpic/10.jpg",
-          userName: "李小仙",
-          isGuanzhu: false,
-          title: "如何用手账改变你的一生？",
-          type: "img", //img:图片，video：视频
-          titlePic: "../../static/image/datapic/11.jpg",
-          playNum: "20w",
-          long: "2:37",
-          infoNum: {
-            index: 1, //0:没有进行顶踩操作，1：反之
-            dingNum: 22,
-            caiNum: 381 },
-
-          commentNum: 1340,
-          shareNum: 10 },
-
-        {
-          userPic: "../../static/image/userpic/10.jpg",
-          userName: "李da仙",
-          isGuanzhu: true,
-          title: "如何用手账改变你的一生？",
-          type: "video",
-          titlePic: "../../static/image/datapic/11.jpg",
-          playNum: "21w",
-          long: "2:37",
-          infoNum: {
-            index: 2, //0:没有进行顶踩操作，1：反之
-            dingNum: 233,
-            caiNum: 38 },
-
-          commentNum: 100,
-          shareNum: 10 },
-
-        {
-          userPic: "../../static/image/userpic/10.jpg",
-          userName: "李小仙",
-          isGuanzhu: false,
-          title: "如何用手账改变你的一生？",
-          type: "img", //img:图片，video：视频
-          titlePic: "../../static/image/datapic/11.jpg",
-          playNum: "20w",
-          long: "2:37",
-          infoNum: {
-            index: 1, //0:没有进行顶踩操作，1：反之
-            dingNum: 22,
-            caiNum: 381 },
-
-          commentNum: 1340,
-          shareNum: 10 },
-
-        {
-          userPic: "../../static/image/userpic/10.jpg",
-          userName: "李da仙",
-          isGuanzhu: true,
-          title: "如何用手账改变你的一生？",
-          type: "video",
-          titlePic: "../../static/image/datapic/11.jpg",
-          playNum: "21w",
-          long: "2:37",
-          infoNum: {
-            index: 2, //0:没有进行顶踩操作，1：反之
-            dingNum: 233,
-            caiNum: 38 },
-
-          commentNum: 100,
-          shareNum: 10 }] },
-
-
-
-      {
+        loadText: "上拉加载更多",
         list: [] },
 
       {
+        loadText: "上拉加载更多",
         list: [] }] };
 
 
@@ -411,7 +427,9 @@ __webpack_require__.r(__webpack_exports__);
   },
   components: {
     indexListItem: indexListItem,
-    swiperTabHead: swiperTabHead },
+    swiperTabHead: swiperTabHead,
+    loadMore: loadMore,
+    noTing: noTing },
 
   onLoad: function onLoad() {
     var _this = this;
@@ -421,12 +439,46 @@ __webpack_require__.r(__webpack_exports__);
       } });
 
   },
+  onNavigationBarSearchInputClicked: function onNavigationBarSearchInputClicked() {
+    // 跳转搜索页
+    uni.navigateTo({
+      url: "../search/search" });
+
+  },
   methods: {
     tabtap: function tabtap(index) {
       this.tabIndex = index;
     },
     tabChange: function tabChange(e) {
       this.tabIndex = e.detail.current;
+    },
+    handlLoadMore: function handlLoadMore(index) {var _this2 = this;
+      if (this.newsList[index].loadText != "上拉加载更多") {
+        return;
+      } else {
+        this.newsList[index].loadText = "加载中...";
+        var timeId = setTimeout(function () {
+          var obj = {
+            userPic: "../../static/image/userpic/10.jpg",
+            userName: "傻儿",
+            isGuanzhu: false,
+            title: "如何用手账改变你的一生？",
+            type: "img", //img:图片，video：视频
+            titlePic: "../../static/image/datapic/11.jpg",
+            playNum: "20w",
+            long: "2:37",
+            infoNum: {
+              index: 0, //0:没有进行顶踩操作，1：反之
+              dingNum: 22,
+              caiNum: 381 },
+
+            commentNum: 1340,
+            shareNum: 10 };
+
+          _this2.newsList[index].list.push(obj);
+          _this2.newsList[index].loadText = "上拉加载更多";
+        }, 1000);
+      }
     } } };exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 

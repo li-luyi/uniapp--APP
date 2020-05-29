@@ -1,21 +1,21 @@
 <template>
-	<view class="index-list-item">
+	<view class="index-list-item animated fadeInUp fast">
 		<view class="user-info">
 			<view class="info">
 				<image :src="item.userPic" mode="widthFix" lazy-load></image>
 				{{item.userName}}
 			</view>
 			<view class="right-info">
-				<view class="attention" v-if="!item.isGuanzhu">
+				<view class="attention" v-if="!item.isGuanzhu" @tap="handleGuanzhu">
 					<view class="icon iconfont icon-zengjia"></view>关注
 				</view>
 				<view class="close-btn icon iconfont icon-guanbi"></view>
 			</view>
 		</view>
-		<view class="title">
+		<view class="title" @tap="openDetail">
 			{{item.title}}
 		</view>
-		<view class="photo">
+		<view class="photo" @tap="openDetail">
 			<image :src="item.titlePic" mode="widthFix" lazy-load></image>
 			<template v-if="item.type=='video'">
 				<view class="playBtn icon iconfont icon-bofang"></view>
@@ -26,8 +26,8 @@
 		</view>
 		<view class="comment-toolbar">
 			<view class="left-tool">
-				<view :class="{'active':item.infoNum.index==1}"><view class="icon iconfont icon-icon_xiaolian-mian"></view>{{item.infoNum.dingNum}}</view>
-				<view :class="{'active':item.infoNum.index==2}"><view class="icon iconfont icon-kulian"></view>{{item.infoNum.caiNum}}</view>
+				<view :class="{'active':item.infoNum.index==1}"><view class="icon iconfont icon-icon_xiaolian-mian" @tap="handleCaozuo('ding')"></view>{{item.infoNum.dingNum}}</view>
+				<view :class="{'active':item.infoNum.index==2}"><view class="icon iconfont icon-kulian" @tap="handleCaozuo('cai')"></view>{{item.infoNum.caiNum}}</view>
 			</view>
 			<view class="right-tool">
 				<view><view class="icon iconfont icon-pinglun1"></view>{{item.commentNum}}</view>
@@ -53,7 +53,39 @@
 			}
 		},
 		methods: {
-			
+			handleGuanzhu(){
+				this.item.isGuanzhu=true
+				uni.showToast({
+					title:"关注成功",
+					duration:1000
+				})
+			},
+			handleCaozuo(type){
+				let info=this.item.infoNum
+				switch (type){
+					case 'ding':
+						if (info.index==1) {return}
+						info.dingNum++
+						if(info.index==2){
+							info.caiNum--
+						}
+						info.index=1
+						break;
+					case 'cai':
+						if (info.index==2) {return}
+						info.caiNum++
+						if(info.index==1){
+							info.dingNum--
+						}
+						info.index=2
+						break;
+					default:
+						break;
+				}
+			},
+			openDetail(){
+				console.log("进入详情页")
+			}
 		}
 	}
 </script>

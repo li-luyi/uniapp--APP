@@ -4,10 +4,19 @@
 		<view class="uni-tab-bar">
 			<swiper class="swiper-box" :style="{height:swiperHeight+'px'}" @change="tabChange" :current="tabIndex">
 				<swiper-item v-for="(item,index) in newsList" :key="index">
-					<scroll-view scroll-y class="list">
-						<block v-for="(it,i) in item.list" :key="i">
-							<index-list-item :item="it"></index-list-item>
-						</block>
+					<scroll-view scroll-y class="list" @scrolltolower="handlLoadMore(index)">
+						<template v-if="item.list.length>0">
+							<!-- 图文列表 -->
+							<block v-for="(it,i) in item.list" :key="i">
+								<index-list-item :item="it"></index-list-item>
+							</block>
+							<!-- 上拉加载 -->
+							<load-more :loadText="item.loadText"></load-more>
+						</template>
+						<!-- 无内容默认展示 -->
+						<template v-if="item.list.length==0">
+							<no-ting></no-ting>
+						</template>
 					</scroll-view>
 				</swiper-item>
 			</swiper>
@@ -18,6 +27,8 @@
 <script>
 	import indexListItem from "../../components/index/index-list-item.vue"
 	import swiperTabHead from "../../components/index/swiper-tab-head.vue"
+	import loadMore from "../../components/common/load-more.vue"
+	import noTing from "../../components/common/no-ting.vue"
 	export default {
 		data() {
 			return {
@@ -51,7 +62,9 @@
 					name: '本地',
 					id: 'bendi'
 				}],
-				newsList: [{
+				newsList: [
+				{
+					loadText:"上拉加载更多",
 					list: [{
 							userPic: "../../static/image/userpic/10.jpg",
 							userName: "李小仙",
@@ -62,7 +75,7 @@
 							playNum: "20w",
 							long: "2:37",
 							infoNum: {
-								index: 1, //0:没有进行顶踩操作，1：反之
+								index: 0, //0:没有进行顶踩操作，1：反之
 								dingNum: 22,
 								caiNum: 381
 							},
@@ -79,7 +92,7 @@
 							playNum: "21w",
 							long: "2:37",
 							infoNum: {
-								index: 2, //0:没有进行顶踩操作，1：反之
+								index: 0, //0:没有进行顶踩操作，1：顶操作；2：踩操作
 								dingNum: 233,
 								caiNum: 38
 							},
@@ -88,6 +101,7 @@
 						}
 					]
 				},{
+					loadText:"上拉加载更多",
 					list:[
 						{
 								userPic: "../../static/image/userpic/10.jpg",
@@ -99,7 +113,7 @@
 								playNum: "20w",
 								long: "2:37",
 								infoNum: {
-									index: 1, //0:没有进行顶踩操作，1：反之
+									index: 0, //0:没有进行顶踩操作，1：反之
 									dingNum: 22,
 									caiNum: 381
 								},
@@ -116,7 +130,7 @@
 								playNum: "21w",
 								long: "2:37",
 								infoNum: {
-									index: 2, //0:没有进行顶踩操作，1：反之
+									index: 0, //0:没有进行顶踩操作，1：反之
 									dingNum: 233,
 									caiNum: 38
 								},
@@ -133,7 +147,7 @@
 									playNum: "20w",
 									long: "2:37",
 									infoNum: {
-										index: 1, //0:没有进行顶踩操作，1：反之
+										index: 0, //0:没有进行顶踩操作，1：反之
 										dingNum: 22,
 										caiNum: 381
 									},
@@ -150,7 +164,7 @@
 									playNum: "21w",
 									long: "2:37",
 									infoNum: {
-										index: 2, //0:没有进行顶踩操作，1：反之
+										index: 0, //0:没有进行顶踩操作，1：反之
 										dingNum: 233,
 										caiNum: 38
 									},
@@ -171,7 +185,7 @@
 								playNum: "20w",
 								long: "2:37",
 								infoNum: {
-									index: 1, //0:没有进行顶踩操作，1：反之
+									index: 0, //0:没有进行顶踩操作，1：反之
 									dingNum: 22,
 									caiNum: 381
 								},
@@ -205,7 +219,7 @@
 									playNum: "20w",
 									long: "2:37",
 									infoNum: {
-										index: 1, //0:没有进行顶踩操作，1：反之
+										index: 0, //0:没有进行顶踩操作，1：反之
 										dingNum: 22,
 										caiNum: 381
 									},
@@ -222,7 +236,7 @@
 									playNum: "21w",
 									long: "2:37",
 									infoNum: {
-										index: 2, //0:没有进行顶踩操作，1：反之
+										index: 0, //0:没有进行顶踩操作，1：反之
 										dingNum: 233,
 										caiNum: 38
 									},
@@ -239,7 +253,7 @@
 										playNum: "20w",
 										long: "2:37",
 										infoNum: {
-											index: 1, //0:没有进行顶踩操作，1：反之
+											index: 0, //0:没有进行顶踩操作，1：反之
 											dingNum: 22,
 											caiNum: 381
 										},
@@ -256,7 +270,7 @@
 										playNum: "21w",
 										long: "2:37",
 										infoNum: {
-											index: 2, //0:没有进行顶踩操作，1：反之
+											index: 0, //0:没有进行顶踩操作，1：反之
 											dingNum: 233,
 											caiNum: 38
 										},
@@ -266,9 +280,11 @@
 					]
 				},
 				{
+					loadText:"上拉加载更多",
 					list:[]
 				},
 				{
+					loadText:"上拉加载更多",
 					list:[]
 				}
 				]
@@ -276,7 +292,9 @@
 		},
 		components: {
 			indexListItem,
-			swiperTabHead
+			swiperTabHead,
+			loadMore,
+			noTing
 		},
 		onLoad() {
 			let _this=this
@@ -286,14 +304,51 @@
 			    }
 			});
 		},
+		onNavigationBarSearchInputClicked(){
+			// 跳转搜索页
+			uni.navigateTo({
+				url:"../search/search"
+			})
+		},
 		methods: {
 			tabtap(index){
 				this.tabIndex=index
 			},
 			tabChange(e){
 				this.tabIndex=e.detail.current
+			},
+			handlLoadMore(index){
+				if (this.newsList[index].loadText!="上拉加载更多") {
+					return;
+				}else{
+					this.newsList[index].loadText="加载中..."
+					let timeId=setTimeout(()=> {
+						let obj={
+									userPic: "../../static/image/userpic/10.jpg",
+									userName: "傻儿",
+									isGuanzhu: false,
+									title: "如何用手账改变你的一生？",
+									type: "img", //img:图片，video：视频
+									titlePic: "../../static/image/datapic/11.jpg",
+									playNum: "20w",
+									long: "2:37",
+									infoNum: {
+										index: 0, //0:没有进行顶踩操作，1：反之
+										dingNum: 22,
+										caiNum: 381
+									},
+									commentNum: 1340,
+									shareNum: 10
+								}
+						this.newsList[index].list.push(obj)
+						this.newsList[index].loadText="上拉加载更多"
+					},1000)
+				}
 			}
 		}
 	}
 </script>
 
+<style lang="less" scoped>
+
+</style>

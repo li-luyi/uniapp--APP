@@ -13,7 +13,6 @@
 </script>
 
 <style>
-	/*每个页面公共css */
 	/* 引入官方css样式 */
 	@import './common/uni.css';
 	/* 引入字体图标库 */

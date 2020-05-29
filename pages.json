@@ -19,7 +19,8 @@
 								"colorPressed":"#BBBBBB",
 								"float":"right",
 								"fontSrc":"/static/font/icon.ttf",
-								"text":"\ue653"
+								"text":"\ue653",
+								"fontSize":"22px"
 							}
 						],
 						"searchInput":{
@@ -44,6 +45,33 @@
         ,{
             "path" : "pages/home/home",
             "style" : {}
+        }
+        ,{
+            "path" : "pages/search/search",
+            "style" : {
+				"app-plus":{
+					"scrollIndicator":"none",
+					"titleNView":{
+						"autoBackButton":false,
+						"buttons":[
+							{
+								"color":"#000000",
+								"colorPressed":"#BBBBBB",
+								"float":"right",
+								"fontSize":"16px",
+								"text":"取消"
+							}
+						],
+						"searchInput":{
+							"backgroundColor":"#f7f7f7",
+							"borderRadius":"4px",
+							"placeholder":"搜索糗事",
+							"placeholderColor":"#ccc",
+							"align":"left"
+						}
+					}
+				}
+			}
         }
     ],
 	"globalStyle": {
