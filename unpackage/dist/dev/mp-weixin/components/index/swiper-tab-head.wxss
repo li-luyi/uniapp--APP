@@ -9,8 +9,7 @@
   border-bottom: 10rpx solid #fede33;
   width: 70rpx;
   margin: auto;
-  -webkit-border-radius: 10rpx;
-          border-radius: 10rpx;
+  border-radius: 10rpx;
 }
 .uni-swiper-tab.data-v-617fe579 {
   border-bottom: 1px solid #EEEEEE;

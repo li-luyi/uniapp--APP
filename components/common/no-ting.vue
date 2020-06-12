@@ -1,5 +1,5 @@
 <template>
-	<view class="noting animated fadeInDown">
+	<view class="noting animated fadeInDown u-f-ajc">
 		<image src="../../static/common/nothing.png" mode="widthFix"></image>
 	</view>
 </template>
@@ -10,9 +10,6 @@
 <style lang="less" scoped>
 .noting{
 	background-color: #FFFFFF;
-	display: flex;
-	align-items: center;
-	justify-content: center;
 	position: absolute;
 	top: 0;
 	bottom: 0;

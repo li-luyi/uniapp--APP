@@ -304,6 +304,22 @@
 			    }
 			});
 		},
+		// 监听原生标题按钮点击事件
+		onNavigationBarButtonTap(e){
+			switch (e.index){
+				case 1:
+					// 打开发布页
+					uni.navigateTo({
+						url:"../app-input/app-input"
+					})
+					break;
+				case 0:
+					// 打开发布页
+					break;	
+				default:
+					break;
+			}
+		},
 		onNavigationBarSearchInputClicked(){
 			// 跳转搜索页
 			uni.navigateTo({

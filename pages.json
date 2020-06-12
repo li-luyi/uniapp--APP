@@ -73,6 +73,14 @@
 				}
 			}
         }
+        ,{
+            "path" : "pages/app-input/app-input",
+            "style" : {
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",

@@ -60,8 +60,7 @@
 .index-list-item .user-info .info image.data-v-fda2a55a {
   width: 100rpx;
   height: 100rpx;
-  -webkit-border-radius: 50%;
-          border-radius: 50%;
+  border-radius: 50%;
   margin-right: 20rpx;
 }
 .index-list-item .user-info .right-info.data-v-fda2a55a {
@@ -82,8 +81,7 @@
   background-color: #f4f4f4;
   color: #333;
   padding: 0 10rpx;
-  -webkit-border-radius: 2rpx;
-          border-radius: 2rpx;
+  border-radius: 2rpx;
   margin-right: 20rpx;
 }
 .index-list-item .title.data-v-fda2a55a {
@@ -93,8 +91,7 @@
 }
 .index-list-item .photo > image.data-v-fda2a55a {
   width: 100%;
-  -webkit-border-radius: 20rpx;
-          border-radius: 20rpx;
+  border-radius: 20rpx;
 }
 .index-list-item .photo.data-v-fda2a55a {
   position: relative;
@@ -118,8 +115,7 @@
   right: 10rpx;
   bottom: 10rpx;
   background-color: rgba(0, 0, 0, 0.6);
-  -webkit-border-radius: 40rpx;
-          border-radius: 40rpx;
+  border-radius: 40rpx;
   padding: 5rpx 10rpx;
   line-height: 1.5;
 }
